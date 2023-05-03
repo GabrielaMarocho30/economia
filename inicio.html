@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sistema Flat</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="frances.php">Sistema Francés</a></li>
+			<li><a href="aleman.php">Sistema Alemán</a></li>
+			<li><a href="ingles.php">Sistema Inglés</a></li>
+			<li><a href="flat.php">Sistema Flat</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<h1>Sistema Flat</h1>
+		<form method="post">
+			<label for="prestamo">Préstamo:</label>
+			<input type="text" name="prestamo" id="prestamo" required>
+
+			<label for="tiempo">Tiempo (en meses):</label>
+            <input type="text" name="tiempo" id="tiempo" required>
+
+			<label for="tasa">Tasa de interés (% mensual):</label>
+				<input type="text" name="tasa" id="tasa" required>
+
+			<input type="submit" value="Calcular tabla de amortización">
+		</form>
+		
+	</div>
+</body>
+</html>
